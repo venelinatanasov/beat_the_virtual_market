@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 3% 7%;
+  background-color: #f8f8f8;
+}
+
+/* HEADER SECTION */
+
+.header {
+  margin: 3% 3%;
+  display: flex;
+}
+
+.header-element {
+  margin: auto;
+}
+
+/* JOB CONTAINERS */
+
+.job-container {
+  margin: 3% 3%;
+  background-color: #f0f0f0;
+  padding: 7% 0;
+  border-radius: 25px;
+}
