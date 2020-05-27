@@ -1,6 +1,6 @@
 <div class="header">
   <div class="stats header-element">
-    Stats
+    Stats: energy: {{ energy }} balance: {{ balance }} time: {{ time }}
   </div>
   <div class="notifications header-element">
     Notifications
@@ -9,7 +9,7 @@
     ProfilePic
   </div>
 </div>
-
+<app-test (testevent)='printtest($event)'></app-test>
 <div class="job-container">
 
 </div>

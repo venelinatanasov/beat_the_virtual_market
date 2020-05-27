@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { businessEvent } from './businessevent.model'
-import { TestBed } from '@angular/core/testing';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -17,9 +17,15 @@ export class AppComponent {
 
   }
 
- 
+  energy: number=2500;
+  balance: number=200;
+  time: number=0;
 
+  
 
+  printtest(a: businessEvent){
+    console.log(a);
+  }
 
 
 
